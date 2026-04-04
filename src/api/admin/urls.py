@@ -10,6 +10,7 @@ from api.admin.views.book_delete import BookDeleteApiView
 from api.admin.views.author_login import AuthorLoginApiView
 from api.admin.views.author_register import AuthorRegisterApiView
 from api.admin.views.author_logout import AuthorLogoutApiView
+from api.admin.views.book_detail import BookDetailApiView
 
 urlpatterns = [
     path("user/list/", UserListApiView.as_view()),
@@ -22,5 +23,6 @@ urlpatterns = [
     path("author/login/", AuthorLoginApiView.as_view()),
     path("author/register/", AuthorRegisterApiView.as_view()),
     path("author/logout/", AuthorLogoutApiView.as_view()),
+    path("book/detail/", BookDetailApiView.as_view()),
 ]
 

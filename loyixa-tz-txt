@@ -1,0 +1,14 @@
+loyihada nmalar boladi
+
+Book, Author modellar boladi.
+
+API endpoint
+/book/list
+/author/list
+/book/list/?author_id=15
+/book/create/
+/book/update/1/
+/book/delate/1/
+/author/login/
+/author/register/
+/author/logout/
